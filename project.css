@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  transition: 0.5s;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 10px;
+}
+
+#clock {
+  font-size: 30px;
+  color: white;
+  background: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#msg {
+  font-size: 22px;
+  margin-top: 20px;
+  color: white;
+}
